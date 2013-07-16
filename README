@@ -1,0 +1,12 @@
+Author: Sinu John
+www.sinujohn.wordpress.com
+
+This project implements an Inverted Index which forms the backend of a Search Engine.
+The Inverted Index is created in an HBase Table. Code that creates the index into a file is also present.
+Look at the comments in IndexCreator.java
+Dependencies: Hadoop and HBase
+
+Usage:
+hadoop jar /path/to/SearchEn.jar me.sinu.search.index.IndexCreator /path/to/input /path/to/output
+Example: 
+hadoop jar /home/bduser/test/SearchEn.jar me.sinu.search.index.IndexCreator /user/input /user/output

@@ -1,0 +1,11 @@
+//table creation scripts
+create 'fileIndexTable', 'data'
+create 'myInvertedIndex', 'data'
+
+//to view the table
+scan 'fileIndexTable'
+scan 'myInvertedIndex'
+
+//to truncate the tables
+truncate 'fileIndexTable'
+truncate 'myInvertedIndex'
